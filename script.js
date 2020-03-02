@@ -56,3 +56,23 @@ let onEdit2Click = () => {
 edit2.addEventListener('click', onEdit2Click)
 
 //Exo 5 :
+
+const bootstrapDisable = document.querySelector('header')
+
+let onLinkClick = () => {
+  let nucleaire = document.querySelector('link')
+  if (nucleaire.disabled === false) {
+		nucleaire.disabled = true;
+	}
+	else  {
+		nucleaire.disabled = false;
+	}
+}
+
+bootstrapDisable.addEventListener('click', onLinkClick)
+
+//Exo 6 :
+
+
+
+
